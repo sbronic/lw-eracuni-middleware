@@ -3,7 +3,7 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: "Method not allowed" });
 
   // --- 1. Postavke e-racuni API-a
-  const API_URL = "https://e-racuni.com/WebServices/API";
+const API_URL = "https://e-racuni.com/H5h/API";
   const username = "BRONICS";
   const secretKey = "31aea4d21d75980bd08b1eed54ef3f74";
   const token = "1A6A66F340AC0D008F463FA300A7F970";
