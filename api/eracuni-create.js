@@ -23,7 +23,7 @@ const API_URL = "https://e-racuni.com/H5h/API";
     buyerTaxNumber: buyer.vat_id || "",
     currency: "EUR",
     date: new Date().toISOString().slice(0, 10),
-methodOfPayment: payment?.method === "bank" ? "BankTransfer" : "CreditCard",
+methodOfPayment: payment?.method === "bank" ? "BankTransfer" : "Stripe",
     isFiscalized: false,
     status: "Draft",
     note: "Ovo je testni račun generiran putem API integracije.",
