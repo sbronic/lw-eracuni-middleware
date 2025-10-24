@@ -13,7 +13,7 @@ const API_URL = "https://e-racuni.com/H5h/API";
 
   // --- 3. Opcije testiranja
   const TEST_MODE = true;  // ako je true -> račun ide kao TEST verzija
-  const DRY_RUN = false;   // ako je true -> ne šalje na e-racune
+  const DRY_RUN = true;   // ako je true -> ne šalje na e-racune
 
   // --- 4. Priprema SalesInvoice objekta
   const SalesInvoice = {
